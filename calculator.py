@@ -30,7 +30,7 @@ if __name__ == "__main__":
         print("4. Power (xʸ)")
         print("5. Exit")
 
-        choice = int(input("Enter choice: "))
+        choice = int(input("Enter Your choice: "))
         if choice in [1, 2, 3, 4]:
             num = float(input("Enter number: "))
             if choice == 1:
