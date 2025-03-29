@@ -4,7 +4,7 @@ from calculator import square_root, factorial, natural_log, power
 
 class TestCalculator(unittest.TestCase):
     def test_square_root(self):
-        self.assertEqual(square_root(4), 2)
+        self.assertEqual(square_root(9), 3)
 
     def test_factorial(self):
         self.assertEqual(factorial(5), 120)
