@@ -21,7 +21,7 @@ def natural_log(x):
 def power(x, y):
     return math.pow(x, y)
 
-# comment 1
+# comment 2
 if __name__ == "__main__":
     while True:
         print("Scientific Calculator")
